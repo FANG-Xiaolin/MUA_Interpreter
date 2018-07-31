@@ -1,10 +1,10 @@
 # MakeUp Programming Language
-This is an interpreter for a interpreted language called MUA(MakeUp Programming Language). The grammar of this
-language can be found below, written in JAVA.
+This is an interpreter for a interpreted language written in JAVA. The interpreted language is called MUA(MakeUp Programming Language). The grammar of this language can be found below.
 
 It support function defining, function calling, loop, recursive procedures, etc.
 
 Try it by yourself!
+Also, Please **do not** borrow the code directly for course projects if your mentor does not allow you to do so. Thanks: )
 
 ## Examples
 
