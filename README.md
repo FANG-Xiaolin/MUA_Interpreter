@@ -7,12 +7,37 @@ It support function defining, function calling, loop, recursive procedures, etc.
 Try it by yourself!
 
 ## Examples
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+
+1.Some basic operations
+
+![1](examples/1.png)
+
+2.Define a function named `f` with argument `a`. Multi-line definition is support, which means you can
+define a function in multiple lines and the interpreter will try to match the brankets.
+
+![2](examples/2.png)
+
+3.A more complex function. The **infix expression** is also supported. 
+
+![3](examples/3.png)
+
+![4](examples/4.png)
+
+4.Argument for functions can be result of an infix expression. Negative numbers supported also.
+
+![5](examples/5.png)
+
+5.Double numbers and infix expression.
+
+![6](examples/6.png)
+
+6.Repeat
+
+![7](examples/7.png)
+
+7.Some other operations.
+
+![8](examples/8.png)
 
 
 
@@ -33,9 +58,9 @@ part of the word, including `"` and `[]`
 
 ### fundamental operation
 
-format: `op_name` `parameters`
+format: `op_name` `arguments`
 
-Different parameters are seperated by spaces.
+Different arguments are seperated by spaces.
 
 
 fundamental op：
@@ -128,7 +153,7 @@ those in `list1`
 			
 word is the function name 
 			
-list1 is the parameter list, list2 is the operation list
+list1 is the arguments list, list2 is the operation list
 
 
 
@@ -137,7 +162,7 @@ list1 is the parameter list, list2 is the operation list
 		<functionName> <arglist>
 functionName is the function name defined in `make`. `"`is not needed.
 
-arglist is the parameter list, values in `arglist` are correspondingly bound to the name 
+arglist is the arguments list, values in `arglist` are correspondingly bound to the name 
 in function definition.
 
 
@@ -148,7 +173,7 @@ in function definition.
 * `output <value>`：set `value` as the return value to the caller. But do not stop execution of function.
 * `stop`：stop execution
 
-* `local <word>`： set the `word` as local name. The parameters are also local names.
+* `local <word>`： set the `word` as local name. The arguments are also local names.
 
 
 
